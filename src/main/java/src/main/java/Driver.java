@@ -1,5 +1,4 @@
-import src.main.java.Counter;
-
+package src.main.java;
 public class Driver {
 
 	public static void main(String[] args) {

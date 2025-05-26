@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Required by SonarCloud
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # Your SonarCloud token from GitHub Secrets
         run: mvn verify sonar:sonar \
-          -Dsonar.projectKey=kholifah-dina_MKEPL_Java-With-Maven \
+          -Dsonar.projectKey=kholifah-dina \
           -Dsonar.organization=kholifah-dina \
           -Dsonar.host.url=https://sonarcloud.io \
           -Dsonar.login=${{ secrets.SONAR_TOKEN }}

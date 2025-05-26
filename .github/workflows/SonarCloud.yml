@@ -34,7 +34,7 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}   # From GitHub Secrets
         run: |
           mvn verify sonar:sonar \
-            -Dsonar.projectKey=kholifah-dina \
+            -Dsonar.projectKey=kholifah-dina_MKEPL_Java_With_Maven \
             -Dsonar.organization=kholifah-dina \
             -Dsonar.host.url=https://sonarcloud.io \
             -Dsonar.login=${{ secrets.SONAR_TOKEN }}
